@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .show-nav {
-        
+    .card {
+        @apply absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-black to-transparent opacity-60 transition duration-300 group-hover:bg-white group-hover:bg-none group-hover:opacity-75;
+    }
+
+    .hover-line {
+        @apply h-px opacity-0 absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 bg-white transition duration-300 group-hover:opacity-100;
     }
 }

@@ -20,6 +20,9 @@ module.exports = {
                 interactive: 'url("/images/mobile/image-interactive.jpg")',
                 interactive: 'url("/images/desktop/image-interactive.jpg")',
             },
+            spacing: {
+                xxl: '69.375rem',
+            },
         },
     },
     plugins: [],
