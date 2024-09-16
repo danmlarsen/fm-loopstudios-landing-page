@@ -4,7 +4,11 @@
 
 @layer components {
     .card {
-        @apply absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-black to-transparent opacity-60 transition duration-300 group-hover:bg-white group-hover:bg-none group-hover:opacity-75;
+        @apply relative cursor-pointer overflow-hidden;
+    }
+
+    .card-gradient {
+        @apply absolute -top-10 -left-10 -right-10 -bottom-10 bg-gradient-to-t from-black to-transparent transition duration-300 group-hover:from-white group-hover:to-grey-500 group-hover:opacity-75;
     }
 
     .hover-line {
